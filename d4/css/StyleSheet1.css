@@ -1,0 +1,198 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: url(/img/background.jpg) no-repeat;
+    background-size: cover;
+}
+
+#main {
+    width: 1001px; /* ширина основного блока */
+    height: 100%; /* высота для наглядности */
+    background: #ff0000; /* цвет блока для наглядности */
+    margin: 0 auto;
+}
+
+p{    
+    margin-top: 5px;
+     margin-bottom: 5px;
+}
+.image {
+    background: white;
+}
+
+.contacts {
+    text-align: center;
+    color: rgb(65, 161, 185);
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+
+.asia {
+    clear: both;
+    float: left;
+    margin-top: 58px;
+    margin-left: 50px;
+}
+
+.flags {
+    float: right;
+    padding-top: 15px;
+}
+
+table {
+    text-align: center;
+    font-size: 12px;
+    text-decoration: underline;
+    color: rgb(65, 161, 185);
+    font-family: Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 50px;
+}
+
+.menu {
+    margin: 0;
+}
+
+ul.menu > li {
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    display: inline;
+}
+
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+}
+
+.menu-container {
+    background: rgb(51, 51, 51);
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    box-shadow: inset 0 0 6px;
+}
+
+    .menu a {
+        display: inline-block;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 50px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+
+        .menu a:visited {
+            color: yellow;
+        }
+
+        .menu a:active {
+            color: white;
+        }
+
+        .menu a:hover {
+            background-color: black;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 50px;
+            color: white;
+        }
+
+ul.menu li {
+    display: inline; /* Отображать как строчный элемент */
+    list-style: none;
+    color: white;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #363636;
+    padding: 0;
+    margin: 0;
+}
+
+    .submenu > li {
+        display: block;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+        .submenu > li > a {
+            color: white;
+            background-color: #363636;
+            text-decoration: none;
+            padding-bottom: 2px;
+            padding-top: 2px;
+            padding-left: 0px;
+            padding-right: 30px;
+        }
+
+            .submenu > li > a:hover {
+                text-decoration: underline;
+                padding-bottom: 2px;
+                padding-top: 2px;
+                padding-left: 0px;
+                padding-right: 30px;
+            }
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto; /* Выравнивание по центру */
+    background-color: white;
+}
+
+.info {
+    width: 25%;
+    float: left;
+    background-color: #E6E6FA;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #696969;
+    font-size: 15px;
+    line-height: 1.5;
+    height: 80%;
+    border: 1px solid #BEBEBE;
+}
+
+.news {
+    width: 25%;
+    float: right;
+    background-color: #E6E6FA;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #696969;
+    font-size: 15px;
+    line-height: 1.5;
+    height: 80%;
+    border: 1px solid #BEBEBE;
+}
+
+.content {
+    width: 40%;
+    margin: 0 300px 0 200px;
+}
+
+.footer {
+    clear: both; /* Отменяет действие float */
+    padding: 5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+    background: rgb(12, 115, 159);
+}
